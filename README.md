@@ -1,5 +1,5 @@
 # Snake Game
- Bacis snake game written in C, displays output in Terminal (works using W/A/S/D)
+Bacis snake game written in C, displays output in Terminal (works using W/A/S/D)
 
 Description: 
 The snake is represented with a 0(zero) symbol.
