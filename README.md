@@ -19,9 +19,13 @@ Then increase the score whenever the snake eats a fruit.
 The user-defined functions created in this program are given below:
 
 Draw(): This function creates the boundary in which the game will be played.
+
 Setup(): This function will set the position of the fruit within the boundary.
+
 Input(): This function will take the input from the keyboard.
+
 Logic(): This function will set the movement of the snake.
+
 
 Here include the <unistd.h> header file for the sleep() function. 
 
