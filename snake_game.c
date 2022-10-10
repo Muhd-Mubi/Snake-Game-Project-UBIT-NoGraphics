@@ -1,5 +1,7 @@
 // C program to build the complete
 // snake game
+#include <stdlib.h>
+#include <conio.h>
 #include <stdio.h>
 #include <unistd.h>
 
@@ -36,7 +38,7 @@ void draw()
 			if (i == 0 || i == width - 1
 				|| j == 0
 				|| j == height - 1) {
-				printf("|");
+				printf("#");
 			}
 			else {
 				if (i == x && j == y)
@@ -86,7 +88,7 @@ void input()
 // each movement
 void logic()
 {
-	sleep(0.000000000000001);
+	sleep(0.01);
 	switch (flag) {
 	case 1:
 		y--;
