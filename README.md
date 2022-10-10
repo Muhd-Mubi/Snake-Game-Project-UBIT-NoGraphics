@@ -43,3 +43,4 @@ logic(): Here, write all the logic for this program like for the movement of the
 sleep(): This function in C is a function that delays the program execution for the given number of seconds. In this code sleep() is used to slow down the movement of the snake so it will be easy for the user to play.
 
 main(): From the main() function the execution of the program starts. It calls all the functions.
+..
